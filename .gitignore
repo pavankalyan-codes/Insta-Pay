@@ -1,0 +1,52 @@
+# Gradle / Android build output
+.gradle/
+build/
+*/build/
+.externalNativeBuild/
+.cxx/
+captures/
+out/
+
+# Generated packages and reports
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+mapping.txt
+lint-results*.html
+lint-results*.xml
+
+# Local IDE and OS files
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+Thumbs.db
+
+# Local machine configuration
+local.properties
+local.properties.txt
+
+# Environment files and app secrets
+.env
+.env.*
+!.env.example
+*.secret
+*.secrets
+secrets.*
+credentials.*
+key.properties
+google-services.json
+
+# Signing keys and private certs
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+
+# Local Gradle overrides that may contain credentials
+gradle.properties.txt
